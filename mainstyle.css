@@ -1,0 +1,90 @@
+
+h2{
+  color: rgb(0, 0, 128)
+}
+
+h3{
+  color: rgb(185, 0,0)
+}
+ 
+h4{
+  color: rgb(25, 25, 112)
+}
+
+#navbar{
+  
+}
+
+#navbar li{
+  border: 2px solid blue ;
+  background-color:  white ;
+  transition: 1s all linear;  
+  
+}
+
+#navbar li:hover{
+  background-color: white;
+  border: 2px solid blue ;
+}
+
+
+@-webkit-keyframes wonky{
+  0% {background-color: white;}
+  50% {background-color: rgb(131, 246, 231);}
+  100% {background-color: white;}
+}
+
+body{
+  -webkit-animation: 5s wonky infinite;
+}
+
+li{
+  -webkit-animation: 10s wonky infinite;
+}
+
+.photos img{
+  position: absolute;
+}
+
+.photos img:nth-of-type(1){
+  left: 50px;
+  top: 50px;
+}
+
+.photos img:nth-of-type(2){
+  left: 150px;
+  top: 100px;
+}
+
+.photos img:nth-of-type(3){
+  left: 250px;
+  top: 50px;
+}
+
+.photos img:nth-of-type(4){
+  left: 350px;
+  top: 50px;
+}
+
+.photos img:nth-of-type(5){
+  left: 450px;
+  top: 50px;
+}
+
+.photos img:nth-of-type(6){
+  left: 550px;
+  top: 50px;
+}
+
+.photos img:nth-of-type(7){
+  left: 650px;
+  top: 50px;
+}
+
+.photos img:hover{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-trasnform: scale(1.5);
+  transform: scale(1.5);
+  z-index:10;
+}
